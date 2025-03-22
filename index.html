@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/output.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon/favicon-16x16.png"
+    />
+    <link rel="icon" href="assets/favicon/favicon.ico" />
+    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <title>Portfolio</title>
+  </head>
+  <body class="p-5">
+    <!-- Center -->
+    <div class="flex justify-center">
+      <section class="w-[clamp(300px,100%,1000px)]">
+        <!-- Navigation -->
+        <header>
+          <nav>
+            <ul class="flex justify-between text-2xl font-h">
+              <li>
+                <a href="/">
+                  <!-- Home -->
+                  <svg
+                    width="30px"
+                    height="auto"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 6V15H6V11C6 9.89543 6.89543 9 8 9C9.10457 9 10 9.89543 10 11V15H15V6L8 0L1 6Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="sm:hidden">
+                <a href="pages/nav.html">
+                  <!-- Hamburger -->
+                  <svg
+                    width="30px"
+                    height="auto"
+                    viewBox="0 0 20 20"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>Hand-Drawn Hamburger</title>
+                    <desc>
+                      Hamburger menu with a slightly wiggly, hand-drawn effect.
+                    </desc>
+                    <g
+                      fill="none"
+                      stroke="white"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                    >
+                      <path d="M2,4 L6,4.2 L10,3.8 L14,4.2 L18,4" />
+                      <path d="M2,10 L6,9.8 L10,10.2 L14,9.8 L18,10" />
+                      <path d="M2,16 L6,16.2 L10,15.8 L14,16.2 L18,16" />
+                    </g>
+                  </svg>
+                </a>
+              </li>
+
+              <div class="gap-5 justify-between md:gap-20 hidden sm:flex">
+                <li>
+                  <a href="pages/about.html">About</a>
+                </li>
+                <li>
+                  <a href="pages/projects.html">Projects</a>
+                </li>
+                <li>
+                  <a href="pages/contacts.html">Contacts</a>
+                </li>
+              </div>
+            </ul>
+          </nav>
+        </header>
+        <main
+          class="hero min-h-[95vh] flex flex-col justify-center text-center font-h"
+        >
+          <section class="pb-5">
+            <img
+              class="border-2 border-white rounded-full w-40 h-40 sm:w-52 sm:h-52 mx-auto"
+              width="auto"
+              height="auto"
+              src="assets/pics/my_photo.jpg"
+              alt="My Photo"
+            />
+          </section>
+          <h1 class="text-7xl sm:text-8xl pb-10">Hi Iam Dharshan</h1>
+          <div class="max-w-[80%] mx-auto">
+            <h2 class="text-2xl sm:text-4xl font-r pb-5">
+              Welcome to my corner of the internet, where my voice can reach you
+              without any noise
+            </h2>
+          </div>
+        </main>
+      </section>
+    </div>
+  </body>
+</html>

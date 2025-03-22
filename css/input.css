@@ -1,0 +1,82 @@
+@keyframes new-in {
+    from {
+        clip-path: circle(10% at 0% 0%);
+    }
+    to {
+        clip-path: circle(100% at 0% 0%);
+    }
+}
+@keyframes old-in {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@view-transition {
+    navigation: auto;
+}
+::view-transition-old(root) {
+    animation: 1s old-in linear;
+}
+
+::view-transition-new(root) {
+    animation: 1s new-in linear;
+}
+@import "tailwindcss";
+
+:root {
+    --bg-color: #0c080e;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+
+    color: rgba(255, 255, 255, 0.87);
+    background-color: var(--bg-color);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'RX100';
+  src: url('../fonts/RX100/RX100-Regular.woff2') format('woff2'),
+       url('../fonts/RX100/RX100-Regular.woff') format('woff'),
+       url('../fonts/RX100/RX100-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Charmonman';
+  src: url('../fonts/Charmonman/Charmonman-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Comico';
+  src: url('../fonts/Comico/Comico-Regular.woff2') format('woff2'),
+       url('../fonts/Comico/Comico-Regular.woff') format('woff'),
+       url('../fonts/Comico/Comico-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+
+.font-r {
+    font-family: "RX100", sans-serif;
+}
+
+.font-s {
+    font-family: "Charmonman", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.font-h {
+    font-family: "Comico", cursive;
+}

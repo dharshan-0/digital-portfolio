@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/output.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../assets/favicon/favicon-16x16.png"
+    />
+    <link rel="icon" href="../assets/favicon/favicon.ico" />
+    <link rel="manifest" href="../assets/favicon/site.webmanifest" />
+    <title>Portfolio</title>
+  </head>
+  <body class="p-5">
+    <!-- Center -->
+    <div class="flex justify-center">
+      <section class="w-[clamp(300px,100%,1000px)]">
+        <!-- Navigation -->
+        <header>
+          <nav>
+            <ul class="flex justify-between text-2xl font-h">
+              <li>
+                <a href="/">
+                  <!-- Home -->
+                  <svg
+                    width="30px"
+                    height="30px"
+                    viewBox="0 0 16 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1 6V15H6V11C6 9.89543 6.89543 9 8 9C9.10457 9 10 9.89543 10 11V15H15V6L8 0L1 6Z"
+                      fill="white"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li class="sm:hidden">
+                <a href="nav.html">
+                  <!-- Hamburger -->
+                  <svg
+                    width="30px"
+                    height="auto"
+                    viewBox="0 0 20 20"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>Hand-Drawn Hamburger</title>
+                    <desc>
+                      Hamburger menu with a slightly wiggly, hand-drawn effect.
+                    </desc>
+                    <g
+                      fill="none"
+                      stroke="white"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                    >
+                      <path d="M2,4 L6,4.2 L10,3.8 L14,4.2 L18,4" />
+                      <path d="M2,10 L6,9.8 L10,10.2 L14,9.8 L18,10" />
+                      <path d="M2,16 L6,16.2 L10,15.8 L14,16.2 L18,16" />
+                    </g>
+                  </svg>
+                </a>
+              </li>
+
+              <div class="gap-5 justify-between md:gap-20 hidden sm:flex">
+                <li>
+                  <a href="about.html">About</a>
+                </li>
+                <li>
+                  <a href="projects.html">Projects</a>
+                </li>
+                <li>
+                  <a href="contacts.html">Contacts</a>
+                </li>
+              </div>
+            </ul>
+          </nav>
+        </header>
+        <main class="text-2xl font-r">
+          <h2 class="text-5xl font-h pt-15 mb-5 text-center">My interest</h2>
+          <p class="flex flex-col text-justify">
+            Iam a full stack developer and FOSS enthusiast who loves to code and
+            learn new technologies and also likes to pry on old tech that powers
+            the modern world like TCP/IP stack, ELF format, etc. I love to play
+            with my PC by inspecting network request, flexing with command line
+            programs and sometimes thinking about UNIX philosophy and minimalism
+            <br />
+            <mark
+              class="text-center bg-transparent text-white font-s pt-5 text-5xl"
+            >
+              BTW Arch user
+            </mark>
+          </p>
+          <h2 class="text-5xl font-h pt-15 mb-5 text-center">My toys</h2>
+          <h3 class="text-3xl font-h my-5 mt-7">Languages</h3>
+          <ul class="pl-10">
+            <li>C</li>
+            <li>C++</li>
+            <li>HTML / CSS</li>
+            <li>Kotlin</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>Javascript / Typescript</li>
+          </ul>
+          <h3 class="text-3xl font-h my-5 mt-7">Frameworks & libraries</h3>
+          <ul class="pl-10">
+            <li>Jetpack compose</li>
+            <li>React</li>
+            <li>Next JS</li>
+            <li>Zod</li>
+          </ul>
+          <h3 class="text-3xl font-h my-5 mt-7">Miscellaneous</h3>
+          <ul class="pl-10">
+            <li>Arch Linux</li>
+            <li>Git</li>
+            <li>Docker</li>
+            <li>SQL</li>
+          </ul>
+          <h2 class="text-5xl font-h pt-15 mb-5 text-center">My Resume</h2>
+          <section class="mt-10 mb-20 text-center">
+            <a
+              class="underline"
+              href="../assets/resume/resume.pdf"
+              download
+            >
+              Check out my resume
+            </a>
+          </section>
+        </main>
+      </section>
+    </div>
+  </body>
+</html>
